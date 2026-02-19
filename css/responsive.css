@@ -1,1 +1,11 @@
+@media (max-width: 768px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
